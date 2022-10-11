@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(58, 83, 58);
+    background-color: rgb(98, 140, 98);
 }
 h1{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -9,7 +9,12 @@ h1{
 }
 input{
     text-align: center;
-    float: center;
+    height: 25px;
+    width: 20%;
+    margin-left: 80px;
+}
+#cars{
+    text-align: center;
     height: 25px;
     width: 20%;
     margin-left: 80px;

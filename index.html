@@ -12,12 +12,17 @@
         <h1>REGISTER WITH US TODAY</h1>
         <div>
             <form>
-                <input type = "text" placeholder = "FIRST NAME" required></br></br>
-                <input type = "text" placeholder = "LAST NAME" required></br></br>
-                <input type = "email" placeholder = "EMAIL" required></br></br>
-                <input type = "number" placeholder = "PHONE NUMBER" required></br></br>
-                <input type = "password" placeholder = "PASSWORD" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2, 3}$" ></br></br>
-                <input type = "password" placeholder = "CONFIRM PASSWORD"required></br></br>
+                <input name = "firstName" type = "text" placeholder = "FIRST NAME" required></br></br>
+                <input name = "lastName" type = "text" placeholder = "LAST NAME" required></br></br>
+                <input name = "email" type = "email" placeholder = "EMAIL" required></br></br>
+                <select id="cars">
+                    <option value="opel">Male</option>
+                    <option value="audi">Female</option>
+                  </select></br></br>
+                  <input name = "date" type="date" id="birthday" name="birthday"></br></br>
+                  <input name = "color" type="color" id="favcolor" name="favcolor" value="#ff0000"></br></br>
+                <input name = "password" type = "password" placeholder = "PASSWORD" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2, 3}$" ></br></br>
+                <input name = "confirmpass" type = "password" placeholder = "CONFIRM PASSWORD"required></br></br>
                 <button value = "submit">submit</button>
             </form>
             <p id = "para">I already have an account <a href = "#">sign in/login</a></p>
